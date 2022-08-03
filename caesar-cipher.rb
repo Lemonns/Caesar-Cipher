@@ -14,4 +14,4 @@ def encrypt(word, num)
     return word_list.join('')
 end
 
-encrypt("Hello, World!", 5)
+print encrypt("Hello, World!", 5)
