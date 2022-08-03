@@ -1,8 +1,3 @@
-print "Enter a message you would like to encrypt: "
-message = gets
-print "Enter a shift number: "
-shift_num = gets.to_i
-
 def encrypt(word, num)
     word_list = []
     word.chars.each do |letter|
@@ -19,4 +14,4 @@ def encrypt(word, num)
     return word_list.join('')
 end
 
-print encrypt(message, shift_num)
+encrypt("Hello, World!", 5)
